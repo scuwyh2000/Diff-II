@@ -22,6 +22,7 @@ conda activate diff-ii
 If this takes too long, `conda config --set solver libmamba` sets conda to use the `libmamba` solver and could speed up installation.
 
 ## Download datasets, learned concepts, and suffixes
+This may take some time.
 ```bash
 bash scripts/download.sh
 ```
