@@ -1,6 +1,6 @@
 # Pytorch implementation of "Inversion Circle Interpolation: Diffusion-based Image Augmentation for Data-scarce Classification"
 
-**Diff-II is a novel and effective generative method for data augmentation.**
+**Diff-II is a novel and effective generative data augmentation method.**
 
 ![](teaser.jpg)
 
