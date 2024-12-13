@@ -28,6 +28,7 @@ bash scripts/download.sh
 ```
 
 ## Run code
+We implemented it on 8 x 3090Ti GPUs. Thus, you can adjust the number of GPUs by modifying the code's hyperparameters.
 Depending on your needs, modify the scripts/run.sh file and run.
 ```bash
 bash scripts/run.sh
