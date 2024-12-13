@@ -5,7 +5,7 @@
 ![](teaser.jpg)
 
 
-> [**Inversion Circle Interpolation: Diffusion-based Image Augmentation for Data-scarce Classification**](https://arxiv.org/pdf/2408.16266) 
+> [**Inversion Circle Interpolation: Diffusion-based Image Augmentation for Data-scarce Classification**](https://arxiv.org/pdf/2408.16266)
 > Yanghao Wang, Long Chen               
 
 ## Updates
