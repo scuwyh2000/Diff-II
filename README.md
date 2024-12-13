@@ -17,7 +17,7 @@
 
 
 
-## Citing RandBox
+## Citing Diff-II
 
 If you use Diff-II in your research or wish to refer to the baseline results published here, please use the following BibTeX entry.
 
