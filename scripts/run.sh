@@ -4,7 +4,7 @@ python get_inversion.py \
     --shot='5shot' \
 
 ## inversion interpolation
-python interpolation_le2.py \
+python interpolation_le.py \
     --strength=0.0 \
     --datasets='aircraft' \
     --shot='5shot' \
