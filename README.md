@@ -12,10 +12,24 @@
 - (12/2024) Code is released.
 
 
-## Getting Started
+## Get Start
+# Environment
+Create a conda environment with the following command:
+```bash
+conda env create -f environment.yml
+```
+If this takes too long, `conda config --set solver libmamba` sets conda to use the `libmamba` solver and could speed up installation.
 
+# Download datasets, learned concepts, and suffixes
+```bash
+bash scripts/download.sh
+```
 
-
+# Run code
+Depending on your needs, modify the scripts/run.sh file and run.
+```bash
+bash scripts/run.sh
+```
 
 ## Citing Diff-II
 
