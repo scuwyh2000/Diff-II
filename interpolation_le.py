@@ -267,14 +267,14 @@ def main():
                 p.start()
                 process_list.append(p)
             for each in process_list:
-              p.join()
+                each.join()
         else:
             for j in range(len(class_names)-i*args.n_workers):
                 p = Process(target=generate,args=(args.datasets, args.shot, args.strength ,class_names[i*args.n_workers+j], args.model_id, args.inversion_step, args.condiction_scale, args.ddim_inversion_dir, args.des_dir, args.expansion_rate, "cuda:"+str(j)))
                 p.start()
                 process_list.append(p)
             for each in process_list:
-              p.join()
+                each.join()
     
 if __name__ == '__main__':
     torch.multiprocessing.set_start_method('spawn')
