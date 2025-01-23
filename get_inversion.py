@@ -189,14 +189,14 @@ def main():
                 p.start()
                 process_list.append(p)
             for each in process_list:
-              p.join()
+                each.join()
         else:
             for j in range(len(class_names)-i*args.n_workers):
                 p = Process(target=get_ddim_inversion_for_one_category,args=(args.datasets, args.shot, class_names[i*args.n_workers+j], args.model_id, args.inversion_step, args.condiction_scale, args.source_dir, args.des_dir,"cuda:"+str(j)))
                 p.start()
                 process_list.append(p)
             for each in process_list:
-              p.join()
+                each.join()
     
 if __name__ == '__main__':
     torch.multiprocessing.set_start_method('spawn')
