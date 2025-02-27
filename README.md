@@ -1,4 +1,4 @@
-# Inversion Circle Interpolation: Diffusion-based Image Augmentation for Data-scarce Classification (CVPR 2025)"
+# Inversion Circle Interpolation: Diffusion-based Image Augmentation for Data-scarce Classification (CVPR 2025)
 
 **Diff-II is a novel and effective generative data augmentation method.**
 
