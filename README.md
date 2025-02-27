@@ -9,6 +9,7 @@
 > Yanghao Wang, Long Chen               
 
 # Updates
+- (02/2025) Diff-II was accepted by CVPR 2025.
 - (12/2024) Code is released.
 
 
