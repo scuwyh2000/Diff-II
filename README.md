@@ -1,4 +1,4 @@
-# Pytorch implementation of "Inversion Circle Interpolation: Diffusion-based Image Augmentation for Data-scarce Classification"
+# Inversion Circle Interpolation: Diffusion-based Image Augmentation for Data-scarce Classification (CVPR 2025)"
 
 **Diff-II is a novel and effective generative data augmentation method.**
 
@@ -6,6 +6,7 @@
 
 
 > [**Inversion Circle Interpolation: Diffusion-based Image Augmentation for Data-scarce Classification**](https://arxiv.org/pdf/2408.16266)
+> 
 > Yanghao Wang, Long Chen               
 
 # Updates
